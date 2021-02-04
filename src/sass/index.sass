@@ -1,0 +1,149 @@
+//imports
+//assets 
+@import "lib/fonts.sass"
+
+//main
+@import "lib/master.sass"
+
+//comps
+@import "lib/footer.sass"
+@import "lib/header.sass"
+@import "lib/mobile-menu.sass"
+@import "lib/slideshow.sass"
+
+/*-------------------------------------------------*/
+/*            MAIN           */
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/* vars */
+$contentwidth: 410px
+$contentheight: 300px
+$bot-margin: 20px
+
+/* Content Text */
+.content-text
+    font-family: $Pacifico
+    border: 3px solid black
+    border-radius: 15px
+    padding: 10px
+    box-sizing: border-box
+    margin-bottom: $bot-margin
+
+/* MAIN */
+main 
+    position: relative
+    
+    .catchphrase-div
+        .catchphrase
+            font-size: 100px
+            text-align: center
+            color: black
+            font-family: $RobotoMono
+
+        .banner-img
+            max-width: 100%
+
+    .content
+        /* query for mobile view */
+        @media screen and (max-width: 440px)
+            .content-text
+                width: 90%
+                height: auto
+
+            .img-laptop-pupil
+                width: 90%
+                height: auto
+
+                img 
+                    width: 100%
+            
+            .who-text
+
+            .technology-slide-show
+                width: 90%
+            
+            .learn-text
+
+        @media screen and (min-width: 440px)
+            .content-text
+                width: $contentwidth
+                height: $contentheight
+
+            .img-laptop-pupil
+                width: $contentwidth
+                height: $contentheight
+
+                img 
+                    height: 100%
+            
+            .who-text
+        
+            .technology-slide-show
+                width: $contentwidth
+            
+            .learn-text
+                
+
+        //make it align in columns
+        @media screen and (max-width: 1400px) 
+            .content-text
+                margin: auto
+                margin-bottom: $bot-margin
+
+            .target-group
+                flex-direction: column
+
+                .img-laptop-pupil
+                    margin: auto
+                    margin-bottom: $bot-margin
+                    
+                .who-text
+            
+            .learn
+                flex-direction: column
+
+                .technology-slide-show
+                    margin: auto
+                
+                .learn-text
+
+        @media screen and(min-width: 1400px)
+            .content-text
+                margin-left: 5%
+
+        //style
+        .target-group
+            display: flex
+            justify-content: center
+
+            .img-laptop-pupil
+                overflow: hidden
+                border-radius: 15px
+                display: flex
+                align-items: center
+                justify-content: center
+
+                img    
+                    
+                    border-radius: 15px
+            
+            .who-text    
+            
+            .new
+
+        .learn
+            margin-bottom: 20px
+            display: flex
+            justify-content: center
+
+            .technology-slide-show
+                margin-bottom: $bot-margin
+                height: $contentheight
+                border: 3px solid black
+                border-radius: 15px
+                box-sizing: border-box
+
+                .slideshow
+                    border-radius: 15px
+            
+            .learn-text
