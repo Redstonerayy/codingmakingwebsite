@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,AAAC,CACN,MAAM,CAAE,yBAAyB,CAAC,KAAK,CAAC,yBAAyB,CACjE,aAAa,CAAE,0BAA0B,CACzC,KAAK,CAAE,uBAAuB,CAC9B,SAAS,CAAE,sBAAsB,CACjC,eAAe,CAAE,IAAI,CACrB,kBAAkB,CAAE,IAAI,CACxB,UAAU,CAAE,IAAI,CAChB,OAAO,CAAE,yBAAyB,CAAC,mCAAmC,CAAC,yBAAyB,CAAC,yBAAyB,CAC1H,UAAU,CAAE,0BAA0B,CAAC,qJAAqJ,CAAC,SAAS,CACtM,mBAAmB,CAAE,KAAK,CAAC,yBAAyB,CAAC,GAAG,CAAC,GAAG,CAC5D",
-    "sources": [
-        "../projects/wp-content/themes/twentytwentyone/assets/sass/04-elements/forms-editor.scss"
-    ],
-    "names": [],
-    "file": "forms-editor.min.css"
-}

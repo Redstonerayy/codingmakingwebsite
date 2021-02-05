@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,SAAS,CAAC,IAAI,CAAC,CAAC,AAAC,CAChB,SAAS,CAAE,2BAA2B,CACtC,aAAa,CAAE,oDAAoD,CACnE",
-    "sources": [
-        "../projects/wp-content/themes/twentytwentyone/assets/sass/06-components/404.scss"
-    ],
-    "names": [],
-    "file": "404.min.css"
-}

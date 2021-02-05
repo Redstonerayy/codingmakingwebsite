@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AACA,AAAA,CAAC,AAAC,CACE,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,OAAO,CAAE,IAAI,CAAG,AAEpB,AAAA,UAAU,AAAC,CACP,MAAM,CAAE,eAAe,CAAG",
     "sources": [
-        "../sass/master.sass"
+        "../sass/lib/master.sass"
     ],
     "names": [],
     "file": "master.min.css"

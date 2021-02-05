@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../sass/basic-parts.sass"
+        "../sass/lib/basic-parts.sass"
     ],
     "names": [],
     "file": "basic-parts.min.css"

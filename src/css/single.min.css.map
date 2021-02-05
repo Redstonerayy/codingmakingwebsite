@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,SAAS,CAAC,aAAa,AAAC,CACvB,aAAa,CAAE,GAAG,CAAC,KAAK,CAAC,2BAA2B,CACpD,cAAc,CAAE,yCAAyC,CACzD,aAAa,CAAE,yCAAyC,CACxD,AAED,AAAA,KAAK,CAAC,aAAa,AAAC,CACnB,aAAa,CAAE,IAAI,CACnB,cAAc,CAAE,CAAC,CACjB,aAAa,CAAE,CAAC,CAChB,AAED,AAAA,SAAS,CAAC,mBAAmB,CAAC,aAAa,AAAC,CAC3C,aAAa,CAAE,IAAI,CACnB,cAAc,CAAE,2CAA2C,CAC3D,aAAa,CAAE,CAAC,CAChB",
-    "sources": [
-        "../projects/wp-content/themes/twentytwentyone/assets/sass/06-components/single.scss"
-    ],
-    "names": [],
-    "file": "single.min.css"
-}

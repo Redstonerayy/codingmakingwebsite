@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAGA,AAAA,MAAM,CAAC,CAAC,CACR,IAAI,CAAC,CAAC,CACN,MAAM,CAAC,CAAC,AAAC,CACR,SAAS,CAAE,8BAA8B,CACzC,AAED,AAAA,IAAI,CACJ,IAAI,CACJ,GAAG,CACH,MAAM,CACN,GAAG,CACH,OAAO,CACP,MAAM,CACN,EAAE,CACF,IAAI,CACJ,OAAO,CACP,MAAM,AAAC,CACN,SAAS,CAAE,IAAI,CACf",
-    "sources": [
-        "../projects/wp-content/themes/twentytwentyone/assets/sass/07-utilities/measure.scss"
-    ],
-    "names": [],
-    "file": "measure.min.css"
-}
