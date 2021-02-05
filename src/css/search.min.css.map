@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC,aAAa,AAAC,CAChC,UAAU,CAAE,yCAAyC,CACrD",
+    "sources": [
+        "../projects/wp-content/themes/twentytwentyone/assets/sass/06-components/search.scss"
+    ],
+    "names": [],
+    "file": "search.min.css"
+}

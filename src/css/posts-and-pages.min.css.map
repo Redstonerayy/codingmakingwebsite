@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,WAAW,AAAA,UAAU,CAAG,CAAC,AAAA,YAAY,AAAC,CACrC,aAAa,CAAE,yCAAyC,CACxD,AAGD,AAAA,WAAW,AAAC,CACX,KAAK,CAAE,IAAI,CAaX,AAdD,AAGC,WAHU,CAGV,kBAAkB,AAAC,CAClB,OAAO,CAAE,YAAY,CACrB,WAAW,CAAE,wCAAwC,CACrD,YAAY,CAAE,wCAAwC,CACtD,SAAS,CAAE,IAAI,CACf,UAAU,CAAE,IAAI,CAKhB,AAbF,AAUE,WAVS,CAGV,kBAAkB,AAOhB,YAAY,AAAC,CACb,WAAW,CAAE,CAAC,CACd",
+    "sources": [
+        "../projects/wp-content/themes/twentytwentyone/assets/sass/06-components/posts-and-pages.scss"
+    ],
+    "names": [],
+    "file": "posts-and-pages.min.css"
+}

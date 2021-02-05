@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,CAAC,CACD,MAAM,AAAC,CACN,WAAW,CAAE,GAAG,CAChB,AAED,AAAA,GAAG,CACH,IAAI,CACJ,EAAE,CACF,CAAC,AAAC,CACD,UAAU,CAAE,MAAM,CAClB,AAED,AAAA,GAAG,AAAC,CACH,WAAW,CAAE,GAAG,CAChB,UAAU,CAAE,IAAI,CAChB",
+    "sources": [
+        "../projects/wp-content/themes/twentytwentyone/assets/sass/04-elements/misc.scss"
+    ],
+    "names": [],
+    "file": "misc.min.css"
+}
