@@ -3,7 +3,6 @@
                    
 -------------------------------------------------*/
 
-
 function mobilemenu() {
     //hide desktop nav
     document.querySelector(".mainnav").setAttribute("hidden", "");
@@ -14,7 +13,11 @@ function mobilemenu() {
     document.querySelector(".mobile-nav").removeAttribute("hidden", "");
     document.querySelector(".mobile-nav > *").removeAttribute("hidden", "");
     //decrease catchphrase fontsize
-    //document.querySelector("main > .catchphrase-div > .catchphrase").setAttribute("style", "font-size: 50px");
+    try {
+        document.querySelector("main > .catchphrase-div > .catchphrase").setAttribute("style", "font-size: 50px");
+    } catch (e) {
+        // No need to change main fontsize
+    }    
 }
 
 function desktopmenu() {
@@ -27,9 +30,12 @@ function desktopmenu() {
     document.querySelector(".mobile-nav").setAttribute("hidden", "");
     document.querySelector(".mobile-nav > *").setAttribute("hidden", "");
     //increase catchphrase fontsize
-    //document.querySelector("main > .catchphrase-div > .catchphrase").setAttribute("style", "font-size: 100px");
+    try {
+        document.querySelector("main > .catchphrase-div > .catchphrase").setAttribute("style", "font-size: 100px");
+    } catch (e) {
+        // No need to change main fontsize"
+    } 
 }
-
 
 /* --------------------------------------------------------------------
 -----------------------------------------------------------------------
@@ -55,9 +61,7 @@ $(document).ready(() => {
     $(".mobile-menu").load("html/mobile-menu.html", () => {
         //mobile menu show/hide
         $(".mobile-nav").on("click", () => {
-            console.log("test");
             let navlinks = $(".mobile-nav-links")[0];
-            console.log(navlinks);
             if(navlinks.style.display == "block"){
                 navlinks.style.display = "none";
             } else {
@@ -66,13 +70,15 @@ $(document).ready(() => {
         });
     });
 
-    $("footer").load("html/footer.html");
+    $("footer").load("html/footer.html"); 
 });
 
 /* ------------------------------------------------
                    ONLOAD
                    
 -------------------------------------------------*/
+//be careful when using React
+//then onload is different and u are stuck in loading screen
 
 $(window).on("load", () => {
     $(".preloader").css("display","none");
@@ -91,4 +97,3 @@ $(window).bind("resize", () => {
         desktopmenu();
     }
 });
-
