@@ -78,19 +78,29 @@ const img = () => {
 
 //javascript
 const js = () => {
-    return gulp.src(`${src}/js/**/*.js`)
+    return gulp.src(`${src}/js/**/*.js*`)
         // Init Plumber
         .pipe(plumber(((error) => {
             gutil.log(error.message)
         })))
         .pipe(sourcemaps.init())
-        .pipe(babel())
+        .pipe(babel({
+            presets: ['@babel/preset-react']
+        }))
         .pipe(jshint())
         .pipe(jshint.reporter('default'))
         .pipe(uglify())
         .pipe(sourcemaps.write(''))
         // Write everything to destination folder
         .pipe(gulp.dest(`${dest}/js`));
+}
+
+/*================================================*/
+
+//php
+const php = () => {
+    return gulp.src(`${src}/**/*.php`)
+        .pipe(gulp.dest(`${dest}/`))
 }
 
 /*================================================*/
@@ -130,14 +140,15 @@ const css = () => {
 const constantbuild = () => gulp.watch([
     `${src}/sass/**/*.sass`,
     `${src}/html/**/*.html`,
-    `${src}/js/**/*.js`
-    ], 
-    gulp.series(html, css, js)
+    `${src}/js/**/*.js`,
+    `${src}/**/*.php`
+    ],
+    gulp.series(html, css, js, img, php)
 );
 
-const build = gulp.series(html, css, js, img);
+const build = gulp.series(html, css, js,  php, img);
 
-const server = gulp.series(html, css, js, img, constantbuild);
+const server = gulp.series(html, css, js, img, php, constantbuild);
 
 /*================================================*/
 

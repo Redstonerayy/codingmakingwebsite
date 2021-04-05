@@ -49,28 +49,20 @@ function desktopmenu() {
                    ONREADY
                    
 -------------------------------------------------*/
+
 $(document).ready(() => {
-    //load html
-    $("header").load("html/header.html", () => {
-        //change menus
-        if($(window).width() < 784){
-            mobilemenu();
+    if($(window).width() < 784){
+        mobilemenu();
+    }
+
+    $(".mobile-nav").on("click", () => {
+        let navlinks = $(".mobile-nav-links")[0];
+        if(navlinks.style.display == "block"){
+            navlinks.style.display = "none";
+        } else {
+            navlinks.style.display = "block";
         }
     });
-
-    $(".mobile-menu").load("html/mobile-menu.html", () => {
-        //mobile menu show/hide
-        $(".mobile-nav").on("click", () => {
-            let navlinks = $(".mobile-nav-links")[0];
-            if(navlinks.style.display == "block"){
-                navlinks.style.display = "none";
-            } else {
-                navlinks.style.display = "block";
-            }
-        });
-    });
-
-    $("footer").load("html/footer.html"); 
 });
 
 /* ------------------------------------------------

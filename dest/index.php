@@ -16,11 +16,11 @@
     <!-- MAIN PAGE-->
     <div class="page" hidden>
         <header>
-            <!-- Load content with jquery -->
+            <?php include 'html/header.html' ?>
         </header>
         <hr class="seperator"> 
         <div class="mobile-menu">
-            <!-- Load content with jquery -->
+            <?php include 'html/mobile-menu.html' ?>
         </div>
         <main>
             <div class="catchphrase-div">
@@ -55,7 +55,7 @@
         </main>
         <hr class="seperator">
         <footer>
-            <!-- Load content with jquery -->
+            <?php include 'html/footer.html' ?>
         </footer>
     </div>
     <!-- CSS Libs -->
