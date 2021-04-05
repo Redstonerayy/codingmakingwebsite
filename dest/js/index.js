@@ -1,0 +1,2 @@
+$(document).ready(()=>{new slideshow([["img/python800px.png","Python",null],["img/electronlogo1200px.png","Electron",null],["img/githublogo1600pxdark.png","Github",null]],document.querySelector(".technology-slide-show"),document.getElementById("prev"),document.getElementById("next"),!0).setslide(0)});
+//# sourceMappingURL=index.js.map

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAEA,OAAO,CAAC,wEAAI,CAGZ,OAAO,CAAC,oEAAI,CAGZ,OAAO,CAAC,oEAAI,CAGZ,OAAO,CAAC,qEAAI,CAGZ,OAAO,CAAC,yEAAI,CAGZ,OAAO,CAAC,sEAAI,CAGZ,OAAO,CAAC,mEAAI,CAGZ,OAAO,CAAC,wEAAI,CAGZ,OAAO,CAAC,2EAAI,CAGZ,OAAO,CAAC,0EAAI,CAGZ,OAAO,CAAC,qEAAI",
-    "sources": [
-        "../sass/lib/fonts.sass"
-    ],
-    "names": [],
-    "file": "fonts.min.css"
-}
