@@ -29,10 +29,24 @@
                         <img src="img/girlblocklaptop.jpeg" alt="">
                     </div>
                     <div class="content-text who-text">
-                        
+                        <div class="text">
+                            Bei der Coding & Making AG ist jeder willkommen, der sich für MINT interessiert.<br>
+                            Man kann frei und selbstständig mit anderen an Projekten arbeiten
+                            und sich weiterentwickeln.<br>
+                            Ob Einsteiger oder schon etwas erfahrender,
+                            hier kann jeder seine Ideen umsetzen. <br>
+                            Hier findet man gleichgesinnte und lernt viele neue Dinge. 
+                            Man kann sich mit Mitschülern austauschen und sich gegenseitig neue
+                            Dinge zeigen. <br>
+                            Dabei herscht eine chillige Atmosphäre in der man in Ruhe 
+                            basteln und werkeln kann. <br> 
+                            Die AG wird von Frau Ziegenmeyer geleitet
+                            und findet am <b>Donnerstag in A3 von 13:45 bis 15:15</b> statt.
+                        </div>
                     </div>
-                    <div class="content-text">
-
+                    <div class="content-text who-video">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iJ18TIki0r4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
                 <div class="learn">
@@ -41,10 +55,20 @@
                         <a id="next">&#10095;</a>
                     </div>
                     <div class="content-text learn-text">
-                        
+                        In der Coding & Making kann man viele verschiedene Dinge lernen
+                        und gemeinsam Projekte umsetzen. Zuerst ist da natürlich das Coden bzw.
+                        Program- mieren in verschiedenen Programmiersprachen aber auch
+                        andere Dinge, die mit Computern zutun haben, wie das Modellieren von
+                        3D Objekten.<br> 
+                        Dabei kann man viele verschiedene Dinge kreieren, wie
+                        eigene Spiele, oder Computerprogramme, die Dinge automatisieren.<br> 
+                        Man kann alles umsetzen, was man sich vorstellen kann, 
+                        euren Vorstellungen sind keine Grenzen gesetzt.
+                        Besonders viele haben sich in der AG mit Python und Javascript beschäftigt.
                     </div>
-                    <div class="content-text">
-
+                    <div class="content-text learn-video">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hnPv77UrSKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
             </div>
