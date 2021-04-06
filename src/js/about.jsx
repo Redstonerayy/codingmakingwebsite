@@ -46,20 +46,31 @@ class DeveloperProfile extends React.Component {
                    MAIN CODE
                    
 -------------------------------------------------*/
+/*
+{
+    "name": ,
+    "profilepicture": ,
+    "age": ,
+    "grade": ,
+    "githublink": ,
+    "email": ,
+    "discord": ,
+    "projects": ,
+    "knowledge": ,
+}
+
+*/
+
 
 let developers = [
-    {"name": "anton", "profilepicture": "img/python800px.png", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "email": "sdf", "discord": "asdf", "projects": "this site", "knowledge": "1"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "2"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "3"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "4"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "5"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "6"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "7"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "8"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "9"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "10"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "11"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "12"}
+    {
+        "name": "Anton", 
+        "age": 16, 
+        "grade": 10, 
+        "githublink": "https://github.com/Redstonerayy", 
+        "projects": "See github", 
+        "knowledge": "Javascript, Electron, HTML, CSS"
+    }
 ];
 
 $(document).ready(() => {

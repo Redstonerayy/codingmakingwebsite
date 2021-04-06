@@ -44,7 +44,7 @@
                             und findet am <b>Donnerstag in A3 von 13:45 bis 15:15</b> statt.
                         </div>
                     </div>
-                    <div class="content-text who-video">
+                    <div class="content-text who-video">    
                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iJ18TIki0r4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
                     </div>
@@ -85,7 +85,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
     <!-- JS Files -->
     <script src="js/lib/def/slideshow.js"></script>
-    <script src="js/lib/script/resizeload.js"></script>
+    <script src="js/lib/script/resize.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>

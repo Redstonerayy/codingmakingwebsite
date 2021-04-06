@@ -51,6 +51,9 @@ function desktopmenu() {
 -------------------------------------------------*/
 
 $(document).ready(() => {
+    $(".preloader").css("display","none");
+    $(".page")[0].removeAttribute("hidden");
+
     if($(window).width() < 784){
         mobilemenu();
     }
@@ -71,13 +74,6 @@ $(document).ready(() => {
 -------------------------------------------------*/
 //be careful when using React
 //then onload is different and u are stuck in loading screen
-
-$(window).on("load", () => {
-    $(".preloader").css("display","none");
-    $(".page")[0].removeAttribute("hidden");
-});
-
-
 /* ------------------------------------------------
                    DEFAULT
                    

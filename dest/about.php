@@ -25,7 +25,6 @@
         </main>
         <hr class="seperator">
         <hr class="seperator">
-        <hr class="seperator">
         <?php include 'html/footer.html' ?>
     </div>
     <!-- CSS Libs -->
@@ -37,7 +36,7 @@
     <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <!-- JS Files -->
-    <script src="js/lib/script/resizeload.js"></script>
+    <script src="js/lib/script/resize.js"></script>
     <script type="text/javascript" src="js/about.js"></script>
 </body>
 </html>
