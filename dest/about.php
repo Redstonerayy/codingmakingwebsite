@@ -15,22 +15,18 @@
     <link rel="stylesheet" href="css/preloader.min.css">
     <!-- MAIN PAGE-->
     <div class="page" hidden>
-        <header>
-            <?php include 'html/header.html' ?>
-        </header>
+        <?php include 'html/header.html' ?>
         <hr class="seperator"> 
-        <div class="mobile-menu">
-            <?php include 'html/mobile-menu.html' ?>
-        </div>
+        <?php include 'html/mobile-menu.html' ?>
         <main>
             <div class="developers">
                 <!-- React -->
             </div>
         </main>
         <hr class="seperator">
-        <footer>
-            <?php include 'html/footer.html' ?>
-        </footer>
+        <hr class="seperator">
+        <hr class="seperator">
+        <?php include 'html/footer.html' ?>
     </div>
     <!-- CSS Libs -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -40,9 +36,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
     <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <!-- JS Files -->
     <script src="js/lib/script/resizeload.js"></script>
-    <script type="text/babel" src="js/about.js"></script>
+    <script type="text/javascript" src="js/about.js"></script>
 </body>
 </html>

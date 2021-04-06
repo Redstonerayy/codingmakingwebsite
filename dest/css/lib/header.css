@@ -1,2 +1,0 @@
-@import"https://fonts.googleapis.com/css2?family=Pacifico&display=swap";header{display:flex;align-items:center;font-family:Pacifico,cursive;position:relative}header a{font-size:20px;margin:15px auto 15px 15%;color:#000;text-decoration:none}header .mainnav{display:flex;justify-content:space-between;margin-right:15%}header .mainnav a{color:#000;text-decoration:none;margin:15px 10px}header .mobile-nav{position:absolute;top:0;right:0;margin:15px 30px}
-/*# sourceMappingURL=header.css.map */

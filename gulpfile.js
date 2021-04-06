@@ -140,7 +140,7 @@ const css = () => {
 const constantbuild = () => gulp.watch([
     `${src}/sass/**/*.sass`,
     `${src}/html/**/*.html`,
-    `${src}/js/**/*.js`,
+    `${src}/js/**/*.js*`,
     `${src}/**/*.php`
     ],
     gulp.series(html, css, js, img, php)

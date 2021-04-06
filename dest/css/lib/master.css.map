@@ -1,1 +1,0 @@
-{"version":3,"sources":["lib/master.sass"],"names":[],"mappings":"AACA,EACI,QAAA,CACA,SAAA,CACA,YAAA,CAEJ,WACI,qBAAA","file":"master.css","sourcesContent":["/* General */\r\n*\r\n    margin: 0\r\n    padding: 0\r\n    outline: none\r\n    \r\n.seperator\r\n    border: 2px solid black"]}

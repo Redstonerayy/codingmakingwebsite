@@ -21,15 +21,15 @@ class Developers extends React.Component {
 class DeveloperProfile extends React.Component {
     render(){
         return(
-            <div class="developer-profile">
-                <img class="profile-picture" src="img/python800px.png" alt=""></img>
-                <div class="description">
-                    <div class="developer-info">
+            <div className="developer-profile">
+                <img className="profile-picture" src={this.props.profilepicture ? this.props.profilepicture : "img/python800px.png"} alt=""></img>
+                <div className="description">
+                    <div className="developer-info">
                         <ul>
                             <li>Name: {this.props.name}</li>
                             <li>Alter: {this.props.age}</li>
                             <li>Klasse: {this.props.grade}</li>
-                            <li class="github">Github: <a href={this.props.githublink}>{this.props.githublink}</a></li>
+                            <li className="github">Github: <a href={this.props.githublink}>{this.props.githublink}</a></li>
                             <li>E-Mail: {this.props.email}</li>
                             <li>Discord: {this.props.discord}</li>
                             <li>Projekte: {this.props.projects}</li>
@@ -47,23 +47,21 @@ class DeveloperProfile extends React.Component {
                    
 -------------------------------------------------*/
 
-$(document).ready(() => {
-    console.log("a");
-});
-
 let developers = [
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "email": "", "discord": "", "projects": "this site", "knowledge": "infinite"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "infinite"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "infinite"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "infinite"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "infinite"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "infinite"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "infinite"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "infinite"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "infinite"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "infinite"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "infinite"},
-    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "infinite"}
+    {"name": "anton", "profilepicture": "img/python800px.png", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "email": "sdf", "discord": "asdf", "projects": "this site", "knowledge": "1"},
+    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "2"},
+    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "3"},
+    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "4"},
+    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "5"},
+    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "6"},
+    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "7"},
+    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "8"},
+    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "9"},
+    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "10"},
+    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "11"},
+    {"name": "anton", "age": 12, "grade": 10, "githublink": "https://github.com/Redstonerayy", "projects": "this site", "knowledge": "12"}
 ];
 
-ReactDOM.render(<Developers developers={developers} />, document.querySelector(".developers"));
+$(document).ready(() => {
+    ReactDOM.render(<Developers developers={developers} />, document.querySelector(".developers"));
+});

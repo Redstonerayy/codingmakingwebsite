@@ -15,13 +15,9 @@
     <link rel="stylesheet" href="css/preloader.min.css">
     <!-- MAIN PAGE-->
     <div class="page" hidden>
-        <header>
-            <?php include 'html/header.html' ?>
-        </header>
+        <?php include 'html/header.html' ?>
         <hr class="seperator"> 
-        <div class="mobile-menu">
-            <?php include 'html/mobile-menu.html' ?>
-        </div>
+        <?php include 'html/mobile-menu.html' ?>
         <main>
             <div class="catchphrase-div">
                 <p class="catchphrase">Build awesome things</p>
@@ -54,9 +50,8 @@
             </div>
         </main>
         <hr class="seperator">
-        <footer>
-            <?php include 'html/footer.html' ?>
-        </footer>
+        <hr class="seperator">
+        <?php include 'html/footer.html' ?>
     </div>
     <!-- CSS Libs -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -65,7 +60,7 @@
     <!-- JS Libs-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
     <!-- JS Files -->
-    <script src="js/lib/func/slideshow.js"></script>
+    <script src="js/lib/def/slideshow.js"></script>
     <script src="js/lib/script/resizeload.js"></script>
     <script src="js/index.js"></script>
 </body>
