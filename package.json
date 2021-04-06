@@ -19,7 +19,8 @@
     "url": "https://github.com/Redstonerayy/codingmakingwebsite/issues"
   },
   "homepage": "https://github.com/Redstonerayy/codingmakingwebsite#readme",
-  "dependencies": {
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
     "@babel/preset-react": "^7.13.13",
     "autoprefixer": "^10.2.5",
     "browser-sync": "^2.26.14",
@@ -37,8 +38,5 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.13.14"
   }
 }
