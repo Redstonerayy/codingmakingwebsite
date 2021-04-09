@@ -1,0 +1,12 @@
+{
+    "name": "anton/codingmakingwebsite",
+    "authors": [
+        {
+            "name": "Redstonerayy",
+            "email": "U25a5DM501B9SH5r0@protonmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.2"
+    }
+}

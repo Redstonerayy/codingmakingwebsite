@@ -1,1 +1,1 @@
-{"version":3,"file":"contact.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"sources":["contact.js"],"names":["$","submit","e"],"mappings":"AAAAA,EAAE,SAASC,OAAOC","file":"contact.js","sourcesContent":["$('.form').submit((e) => {\r\n});\r\n"]}
