@@ -27,28 +27,32 @@
                 //Load Composer's autoloader
                 require 'vendor/autoload.php';
 
+                /*
                 $mail = new PHPMailer(true);
 
                 try {
-                    
+                    //its now working without STARTTLS
+                    //is sure different on other pcs because of other credentials and servers
+
+
                     //Server settings
-                    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+                    //$mail->SMTPDebug = SMTP::DEBUG_CONNECTION;                      //Enable verbose debug output
                     $mail->isSMTP();                                            //Send using SMTP
-                    $mail->Host       = 'testforprogramming';                     //Set the SMTP server to send through
+                    $mail->Host       = 'localhost';                     //Set the SMTP server to send through
                     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-                    $mail->Username   = 'test@testforprogramming';                     //SMTP username
+                    $mail->Username   = 'test@test.com';                     //SMTP username
                     $mail->Password   = 'test';                               //SMTP password
-                    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+                    //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
                     $mail->Port       = 587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
                     //Recipients
-                    $mail->setFrom('test@testforprogramming.com', 'Mailer');
-                    $mail->addAddress('redstone.rayy@gmail.com', 'Joe User');     //Add a recipient
+                    $mail->setFrom('test@test.com', 'Mailer');
+                    $mail->addAddress('anton.paul.rodenwald@iserv-schillerschule.de', 'Joe User');     //Add a recipient
 
                     //Content
                     $mail->isHTML(true);                                  //Set email format to HTML
                     $mail->Subject = 'Here is the subject';
-                    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+                    $mail->Body    = 'This is the HTML message body <b>in bold!</b><script>alert("test")</script>';
                     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
                     $mail->send();
@@ -56,6 +60,7 @@
                 } catch (Exception $e) {
                     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
                 }
+                */
 
                 $nameerr = "";
                 $emailerr = "";
@@ -120,6 +125,5 @@
     <!-- JS Files -->
     <script src="js/lib/script/resize.js"></script>
     <script src="js/contact.js"></script>
-    <?php phpinfo(); ?>
 </body>
 </html>
