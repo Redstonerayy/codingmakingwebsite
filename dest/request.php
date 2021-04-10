@@ -1,7 +1,7 @@
 <?php
     //get files 
     $files = scandir('projects');
-    $files = array_diff($files, [".", "..", "projects.html"]);
+    $files = array_diff($files, [".", "..", "projects.html", "projects", "website", "ytdownloader"]);
     $files = array_values($files);
     $projectnames = array();
     for($i = 0; $i < count($files); $i++){

@@ -1,5 +1,5 @@
 //general
-//npm install gulp gulp-plumber browser-sync gulp-rename gulp-util gulp-dart-sass gulp-sass-lint gulp-sourcemaps gulp-postcss autoprefixer cssnano gulp-htmlmin gulp-concat gulp-babel gulp-jshint gulp-uglify
+//npm install gulp gulp-plumber browser-sync gulp-rename gulp-util gulp-dart-sass gulp-sass-lint gulp-sourcemaps gulp-postcss autoprefixer cssnano gulp-htmlmin gulp-concat gulp-babel gulp-jshint gulp-uglify @babel/preset-react
 
 const gulp = require("gulp");
 const plumber = require("gulp-plumber");
