@@ -97,10 +97,17 @@ const js = () => {
 
 /*================================================*/
 
+const projects = () => {
+    return gulp.src(`${src}/projects/**/*.*`)
+        .pipe(gulp.dest(`${dest}/projects`));
+}
+
+/*================================================*/
+
 //php
 const php = () => {
     return gulp.src(`${src}/**/*.php`)
-        .pipe(gulp.dest(`${dest}/`))
+        .pipe(gulp.dest(`${dest}/`));
 }
 
 /*================================================*/
@@ -142,14 +149,15 @@ const constantbuild = () => gulp.watch([
     `${src}/html/**/*.html`,
     `${src}/js/**/*.js*`,
     `${src}/**/*.php`,
-    `${src}/img/*.*`
+    `${src}/img/*.*`,
+    `${src}/projects/**/*.*`
     ],
-    gulp.series(html, css, js, img, php)
+    gulp.series(html, css, js, img, php, projects)
 );
 
-const build = gulp.series(html, css, js,  php, img);
+const build = gulp.series(html, css, js,  php, img, projects);
 
-const server = gulp.series(html, css, js, img, php, constantbuild);
+const server = gulp.series(html, css, js, img, php, projects, constantbuild);
 
 /*================================================*/
 
